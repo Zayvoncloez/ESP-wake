@@ -1,7 +1,7 @@
 # ESP-wake
 en:
-Code to enable ESP32 Through an optocoupler or WOL
-
+Code to enable ESP32 Through an optocoupler or WOL.
+ru: это лишь моя идея для включения сервера на ESP32, через WOL или потопару.
 with WOL: 
 ```
 #include <WiFi.h>
