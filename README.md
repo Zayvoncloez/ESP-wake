@@ -77,7 +77,7 @@ delay(300000); //ожидание 5-ти минут, можете постави
 ```
 To connect the optocoupler, the following circuit is used: 
 ```
-GND ESP-------|katode--emmiter  |-----button server
-              |                 |
-PIN5 ESP------|anod----collector|-----button server
+GND ESP-----------------|katode----emmiter|-----button server
+                        |                 |
+PIN5 ESP---resistor1K---|anod----collector|-----button server
 ```
